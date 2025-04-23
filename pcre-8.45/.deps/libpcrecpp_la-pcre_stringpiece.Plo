@@ -1,0 +1,317 @@
+libpcrecpp_la-pcre_stringpiece.lo: pcre_stringpiece.cc config.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/iostream \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/c++config.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/os_defines.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/features.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/wordsize.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/gnu/stubs.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/cpu_defines.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ostream \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ios \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/iosfwd \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stringfwd.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/memoryfwd.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/postypes.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/cwchar \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/wchar.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/stdio.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include/stdarg.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/wchar.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include/stddef.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/xlocale.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/exception \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/atomic_lockfree_defines.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/char_traits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_algobase.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/functexcept.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/exception_defines.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/cpp_type_traits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ext/type_traits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ext/numeric_traits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_pair.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/move.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/concept_check.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_iterator_base_types.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_iterator_base_funcs.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/debug/debug.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_iterator.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/ptr_traits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/predefined_ops.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/localefwd.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/c++locale.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/clocale \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/locale.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/locale.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/cctype \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/ctype.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/types.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/typesizes.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/endian.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/endian.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/byteswap.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/ios_base.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ext/atomicity.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/gthr.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/gthr-default.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/pthread.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sched.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/time.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/sched.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/time.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/setjmp.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/atomic_word.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/locale_classes.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/string \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/allocator.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/c++allocator.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ext/new_allocator.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/new \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/ostream_insert.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/cxxabi_forced.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_function.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/backward/binders.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/range_access.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/basic_string.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/basic_string.tcc \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/locale_classes.tcc \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/streambuf \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/streambuf.tcc \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/basic_ios.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/locale_facets.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/cwctype \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/wctype.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/ctype_base.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/streambuf_iterator.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/ctype_inline.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/locale_facets.tcc \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/basic_ios.tcc \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/ostream.tcc \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/istream \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/istream.tcc \
+ pcrecpp_internal.h pcre_stringpiece.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/cstring \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/string.h \
+ pcre.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/stdlib.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/waitflags.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/waitstatus.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/types.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/select.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/select.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/sigset.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/sysmacros.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/alloca.h
+
+config.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/iostream:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/c++config.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/os_defines.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/features.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/cdefs.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/wordsize.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/gnu/stubs.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/cpu_defines.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ostream:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ios:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/iosfwd:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stringfwd.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/memoryfwd.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/postypes.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/cwchar:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/wchar.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/stdio.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include/stdarg.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/wchar.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include/stddef.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/xlocale.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/exception:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/atomic_lockfree_defines.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/char_traits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_algobase.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/functexcept.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/exception_defines.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/cpp_type_traits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ext/type_traits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ext/numeric_traits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_pair.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/move.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/concept_check.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_iterator_base_types.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_iterator_base_funcs.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/debug/debug.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_iterator.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/ptr_traits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/predefined_ops.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/localefwd.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/c++locale.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/clocale:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/locale.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/locale.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/cctype:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/ctype.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/types.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/typesizes.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/endian.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/endian.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/byteswap.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/ios_base.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ext/atomicity.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/gthr.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/gthr-default.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/pthread.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sched.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/time.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/sched.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/time.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/pthreadtypes.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/setjmp.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/atomic_word.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/locale_classes.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/string:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/allocator.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/c++allocator.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/ext/new_allocator.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/new:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/ostream_insert.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/cxxabi_forced.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/stl_function.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/backward/binders.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/range_access.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/basic_string.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/basic_string.tcc:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/locale_classes.tcc:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/streambuf:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/streambuf.tcc:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/basic_ios.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/locale_facets.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/cwctype:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/wctype.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/ctype_base.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/streambuf_iterator.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/arm-linux-gnueabi/bits/ctype_inline.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/locale_facets.tcc:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/basic_ios.tcc:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/ostream.tcc:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/istream:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/bits/istream.tcc:
+
+pcrecpp_internal.h:
+
+pcre_stringpiece.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/include/c++/4.9.4/cstring:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/string.h:
+
+pcre.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/stdlib.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/waitflags.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/waitstatus.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/types.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/select.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/select.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/sigset.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/sysmacros.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/alloca.h:

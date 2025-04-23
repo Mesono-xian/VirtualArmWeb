@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>嵌入式Web控制界面</title>
+</head>
+<body>
+  <h1>查看当前IP地址</h1>
+  <iframe src="/cgi-bin/ip.cgi" width="300" height="50"></iframe>
+  <hr>
+  <h1>Ping 远程主机</h1>
+  <form action="/cgi-bin/ping.cgi" method="GET">
+    目标地址：<input type="text" name="host" />
+    <input type="submit" value="开始Ping" />
+  </form>
+</body>
+</html>
+

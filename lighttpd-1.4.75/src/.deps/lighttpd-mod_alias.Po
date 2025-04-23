@@ -1,0 +1,192 @@
+lighttpd-mod_alias.o: mod_alias.c first.h ../config.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/types.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/features.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/wordsize.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/gnu/stubs.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/types.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/typesizes.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/time.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include/stddef.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/endian.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/endian.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/byteswap.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/select.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/select.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/sigset.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/time.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/sysmacros.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include/stdint.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/stdint.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/wchar.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include-fixed/limits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include-fixed/syslimits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/limits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/posix1_lim.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/local_lim.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/linux/limits.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/posix2_lim.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/xopen_lim.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/stdio_lim.h \
+ base.h sys-time.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/time.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/xlocale.h \
+ base_decls.h buffer.h ck.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/assert.h \
+ array.h chunk.h fdlog.h http_kv.h request.h sock_addr.h sys-socket.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/socket.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/uio.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/uio.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/socket.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/sockaddr.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/asm/socket.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/asm/sockios.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/netinet/in.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/in.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/netinet/tcp.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/un.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/string.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/string.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/string2.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/stdlib.h \
+ log.h plugin.h plugin_config.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/waitflags.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/waitstatus.h \
+ /home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/alloca.h
+
+first.h:
+
+../config.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/types.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/features.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/cdefs.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/wordsize.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/gnu/stubs.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/types.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/typesizes.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/time.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include/stddef.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/endian.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/endian.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/byteswap.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/select.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/select.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/sigset.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/time.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/sysmacros.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/pthreadtypes.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include/stdint.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/stdint.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/wchar.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include-fixed/limits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4/include-fixed/syslimits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/limits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/posix1_lim.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/local_lim.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/linux/limits.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/posix2_lim.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/xopen_lim.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/stdio_lim.h:
+
+base.h:
+
+sys-time.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/time.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/xlocale.h:
+
+base_decls.h:
+
+buffer.h:
+
+ck.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/assert.h:
+
+array.h:
+
+chunk.h:
+
+fdlog.h:
+
+http_kv.h:
+
+request.h:
+
+sock_addr.h:
+
+sys-socket.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/socket.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/uio.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/uio.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/socket.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/sockaddr.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/asm/socket.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/asm/sockios.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/netinet/in.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/in.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/netinet/tcp.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/sys/un.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/string.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/string.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/string2.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/stdlib.h:
+
+log.h:
+
+plugin.h:
+
+plugin_config.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/waitflags.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/bits/waitstatus.h:
+
+/home/sizhuo/x-tools/arm-linux-gnueabi/arm-linux-gnueabi/sysroot/usr/include/alloca.h:
