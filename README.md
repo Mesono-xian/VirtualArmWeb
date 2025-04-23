@@ -1,1 +1,6 @@
 # VirtualArmWeb
+华中科技大学电信学院嵌入式Linux课程设计
+
+基于虚拟Arm开发板，运行web服务器实现简单的功能
+
+v1 实现简单的html动态网页，显示本机ip地址以及ping外网
