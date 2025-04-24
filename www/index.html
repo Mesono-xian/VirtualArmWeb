@@ -1,76 +1,164 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>嵌入式Web控制界面</title>
+  <meta charset="UTF-8">
+  <title>嵌入式控制面板</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f0f2f5;
       padding: 20px;
-    }
-    h1 {
       color: #333;
     }
-    input[type="text"], input[type="submit"] {
-      padding: 8px;
-      margin: 5px;
+    h1 {
+      color: #0077cc;
     }
-    .results {
-      white-space: pre-wrap;
+    section {
       background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    iframe, .output {
+      border: none;
+      background: #eef;
       padding: 10px;
       border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      margin-top: 15px;
+      font-family: monospace;
+      color: #333;
+      width: 100%;
+      white-space: pre-wrap;
+    }
+    input[type="text"], textarea {
+      padding: 6px;
+      width: 90%;
+      margin-top: 5px;
+      font-family: monospace;
+    }
+    button {
+      padding: 6px 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
     }
     .loading {
+      color: orange;
+      font-style: italic;
+      margin-top: 10px;
+    }
+    .status {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .success {
       color: green;
+    }
+    .fail {
+      color: red;
     }
   </style>
 </head>
 <body>
 
-  <h1>查看当前IP地址</h1>
-  <iframe src="/cgi-bin/ip.cgi" width="300" height="50"></iframe>
+  <h1>嵌入式控制面板</h1>
 
-  <hr>
+  <section>
+    <h2>📡 当前 IP 地址</h2>
+    <iframe src="/cgi-bin/ip.cgi" width="300" height="40"></iframe>
+  </section>
 
-  <h1>Ping 远程主机</h1>
-  <form id="ping-form">
-    目标地址：<input type="text" id="host" name="host" required />
-    <input type="submit" value="开始Ping" />
-  </form>
+  <section>
+    <h2>🕒 当前系统时间</h2>
+    <div id="current-time" class="output" style="width: 300px;"></div>
+  </section>
 
-  <div id="loading" class="loading" style="display:none;">正在 Ping，请稍候...</div>
-  <div id="result" class="results" style="display:none;"></div>
+  <section>
+    <h2>🌐 Ping 主机</h2>
+    <form id="ping-form">
+      <input type="text" id="host" placeholder="例如: www.baidu.com" required />
+      <button type="submit">开始 Ping</button>
+    </form>
+    <div id="ping-loading" class="loading" style="display:none;">正在 Ping，请稍候...</div>
+    <div id="ping-status" class="status"></div>
+    <div id="ping-result" class="output" style="display:none;"></div>
+  </section>
+
+  <section>
+    <h2>📝 在线执行 Shell 脚本</h2>
+    <form id="shell-form">
+      <textarea id="shell-code" rows="6" placeholder="输入 shell 脚本，例如：&#10;echo Hello from web&#10;uptime"></textarea><br>
+      <button type="submit">运行脚本</button>
+    </form>
+    <div id="shell-output" class="output" style="display:none;"></div>
+  </section>
 
   <script>
-    const form = document.getElementById("ping-form");
-    const resultBox = document.getElementById("result");
-    const loading = document.getElementById("loading");
+    // 动态更新时间
+    function updateTime() {
+      fetch("/cgi-bin/time.cgi")
+        .then(res => res.text())
+        .then(data => {
+          document.getElementById("current-time").textContent = data;
+        });
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
 
-    form.addEventListener("submit", function (e) {
+    // Ping 功能
+    document.getElementById("ping-form").addEventListener("submit", function (e) {
       e.preventDefault();
       const host = document.getElementById("host").value;
-      resultBox.style.display = "none";
+      const loading = document.getElementById("ping-loading");
+      const result = document.getElementById("ping-result");
+      const status = document.getElementById("ping-status");
+
       loading.style.display = "block";
+      result.style.display = "none";
+      status.textContent = "";
+      status.className = "status";
 
       fetch(`/cgi-bin/ping.cgi?host=${encodeURIComponent(host)}`)
-        .then(response => response.text())
+        .then(res => res.text())
         .then(data => {
           loading.style.display = "none";
-          resultBox.style.display = "block";
-          resultBox.textContent = data;
-        })
-        .catch(error => {
-          loading.style.display = "none";
-          resultBox.style.display = "block";
-          resultBox.textContent = "请求出错：" + error;
+          result.style.display = "block";
+          result.textContent = data;
+
+          if (data.includes("bytes from")) {
+            status.textContent = "✅ Ping 成功";
+            status.classList.add("success");
+          } else {
+            status.textContent = "❌ Ping 失败";
+            status.classList.add("fail");
+          }
         });
     });
+
+    // 执行脚本功能
+    document.getElementById("shell-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const code = document.getElementById("shell-code").value;
+      const output = document.getElementById("shell-output");
+      output.style.display = "block";
+      output.textContent = "执行中...";
+
+      fetch("/cgi-bin/runusercode.cgi", {
+        method: "POST",
+        body: code
+      })
+      .then(res => res.text())
+      .then(data => {
+        output.textContent = data;
+      });
+    });
   </script>
+
 </body>
 </html>
-
